@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1482496303245" stop="1482496303412" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : testproject1</name>
+    <title>Default Suite : testproject1</title>
+    <test-cases>
+        <test-case start="1482496303334" stop="0" status="passed">
+            <name>testMethod1[org.testng.TestRunner@6fd77352]</name>
+            <labels>
+                <label name="host" value="DESKTOP-E6B1NK3"/>
+                <label name="thread" value="440@DESKTOP-E6B1NK3.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

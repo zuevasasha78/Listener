@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1482496028261" stop="1482496028802" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : testproject1</name>
+    <title>Default Suite : testproject1</title>
+    <test-cases>
+        <test-case start="1482496028362" stop="1482496028443" status="passed">
+            <name>testMethod1[org.testng.TestRunner@5da7cee2]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-E6B1NK3"/>
+                <label name="thread" value="8424@DESKTOP-E6B1NK3.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482496028721" stop="1482496028787" status="failed">
+            <name>testMethod2[org.testng.TestRunner@5da7cee2]</name>
+            <failure>
+                <message>AssertionError: 
+Expected: "запрос"
+     but: was "запрос2"</message>
+                <stack-trace>java.lang.AssertionError: 
+Expected: "запрос"
+     but: was "запрос2"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at ru.MyTest.SecondTest.testMethod2(SecondTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-E6B1NK3"/>
+                <label name="thread" value="8424@DESKTOP-E6B1NK3.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482496028790" stop="1482496028791" status="passed">
+            <name>testMethod3[org.testng.TestRunner@5da7cee2]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-E6B1NK3"/>
+                <label name="thread" value="8424@DESKTOP-E6B1NK3.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
